@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define BUFFER_SIZE 100
+#define BUFFER_SIZE 512
 
 int main(int argc, char *argv[])
 {
