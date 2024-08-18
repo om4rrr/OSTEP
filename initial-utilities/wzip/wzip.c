@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
         fclose(fp);
     }
 
-    rewind(tempFile);
+    rewind(tempFile); // reset the file position indicator of a file stream to the beginning of the file
 
     size_t count = 1;
     for (char prevChar = fgetc(tempFile), currChar; prevChar != EOF; prevChar = currChar) {
